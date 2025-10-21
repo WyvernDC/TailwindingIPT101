@@ -4,10 +4,10 @@ import Link from "next/link";
 export default function ProfileCard() {
   return (
     <section className="flex flex-col items-center p-4 md:p-8 lg:p-12">
-      {/* Profile Card */}
+    
       <aside className="mx-auto w-full max-w-md rounded-2xl bg-white p-6 shadow-lg dark:bg-slate-800 md:max-w-2xl lg:max-w-3xl">
         <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-8 lg:gap-10">
-          {/* Profile image */}
+       
           <div className="relative h-28 w-28 flex-shrink-0 overflow-hidden rounded-full ring-2 ring-black/5 dark:ring-white/10 md:h-32 md:w-32 lg:h-36 lg:w-36">
             <Image
               src="/img/prof.png"
@@ -19,7 +19,7 @@ export default function ProfileCard() {
             />
           </div>
 
-          {/* Text and links */}
+         
           <div className="w-full text-center md:text-left">
             <h2 className="text-xl font-semibold text-black dark:text-white md:text-2xl lg:text-3xl">
               MELENDRES, DAVID KAYL
