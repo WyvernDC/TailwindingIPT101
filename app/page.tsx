@@ -70,7 +70,6 @@ export default function ProfileCard() {
         </div>
       </aside>
 
-      {/* GIF below the card */}
       <div className="mt-6 flex justify-center">
         <img
           src="/img/Stoick.gif"
